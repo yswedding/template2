@@ -24,7 +24,7 @@
     background-color: #eee;
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     top: 0;
     left: 0;
     background-image: url(bg.jpg);
@@ -48,7 +48,7 @@
 .gbr-hiasan {
     position: fixed;
     z-index: 5;
-    height: 150px;
+    height: 125px;
 }
 
 .heading-sec {
@@ -91,6 +91,10 @@
     color: #71747a;
     margin: 25px 0;
 }
+p {font-size: 13px;}
+.hiasan {
+    height: 30px;
+}
 @media (min-width: 768px) {
     .heading-sec .subtitle {
         letter-spacing: 10px;
@@ -110,6 +114,8 @@
     .gbr-hiasan {
         height: 200px;
     }
+
+    p {font-size: unset;}
     
 }
 
