@@ -44,11 +44,20 @@
     background-size: cover;
     background-position: center;
 }
+.bg2 {
+    background-image: url(bg.jpg);
+    background-position: center;
+}
 
 .gbr-hiasan {
     position: fixed;
     z-index: 5;
     height: 125px;
+}
+
+.gbr-hiasan.mobile{
+    height: unset;
+    width: 170px;
 }
 
 .heading-sec {
